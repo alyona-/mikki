@@ -1,0 +1,166 @@
+.left_hand__kist {
+    position: absolute;
+    background: #fff;
+    border-radius: 30px 30px 0px 0px;
+
+   width:80px;
+    height:80px;
+    left: -15px;
+    bottom: 0;
+    box-shadow: inset 0px -3px 15px 7px #C9C4C0;
+}
+.right_hand__kist {
+    position: absolute;
+    background: #fff;
+    border-radius: 30px 30px 0px 0px;
+
+  width:80px;
+    height:80px;
+    left: -15px;
+    bottom: 0;
+    box-shadow: inset 0px -3px 15px 7px #C9C4C0;
+
+}
+
+/*Пальцы левой руки*/
+.left_hand__palec_one{
+    position: relative;
+    background: #fff;
+
+    float:left;
+    /*Первый палец должен быть повернут н 30 градусов,
+    рука повернута ладонью к пользователю*/
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform-rotate: rotate(30deg);
+    border-radius: 0px 0px 50px 50px;
+
+   width:15px;
+    height:40px;
+    margin-top: 70px;
+    margin-left: -10px;
+
+}
+.left_hand__palec_two{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+   width:15px;
+    height:40px;
+    margin-top: 75px;
+    margin-left: 2px;
+
+
+}
+.left_hand__palec_three{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+   width:15px;
+    height:40px;
+    margin-top: 75px;
+    margin-left: 2px;
+
+
+}
+.left_hand__palec_four{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+  width:15px;
+    height:40px;
+    margin-top: 75px;
+    margin-left: 2px;
+
+}
+.left_hand__palec_five{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+    width:15px;
+    height:40px;
+    margin-top: 75px;
+    margin-left: 2px;
+    left:1px;
+
+}
+
+/*Пальцы правой руки*/
+.right_hand__palec_one{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+   width:15px;
+    height:40px;
+    margin-top: 75px;
+    left:0px;
+
+}
+.right_hand__palec_two{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+  width:15px;
+    height:40px;
+    margin-top: 75px;
+    left:-1px;
+
+}
+.right_hand__palec_three{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+    width:15px;
+    height:40px;
+    margin-top: 75px;
+    left:-2px;
+
+}
+.right_hand__palec_four{
+    position: relative;
+    background: #fff;
+    float:right;
+    border-radius: 0px 0px 50px 50px;
+
+  width:15px;
+    height:40px;
+    margin-top: 75px;
+    left:-3px;
+
+
+}
+.right_hand__palec_five{
+    position: relative;
+    background: #fff;
+    float:left;
+    border-radius: 0px 0px 50px 50px;
+
+    /*Пятый палей должен быть отогнут*/
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform-rotate: rotate(30deg);
+    border-radius: 0px 0px 50px 50px;
+
+   width:15px;
+    height:40px;
+    margin-top: 80px;
+    top:-10px;
+    left:-5px;
+
+}

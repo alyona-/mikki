@@ -1,0 +1,50 @@
+.yxo {
+    position: relative;
+    width:400px;
+    height:150px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.yxo_1{
+    position: relative;
+    height:150px;
+    width:150px;
+    float: left;
+    border-radius: 100px;
+    background: #000;
+    background: linear-gradient(to right bottom,#31434F 30%,#000 50%);
+}
+.yxo_1:before{
+    position: absolute;
+    content:"";
+    top:20px;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    background: #092B4B;
+    background: radial-gradient(#092B4B,#000);
+    border-radius:50px;
+    z-index: 2;
+}
+.yxo_2{
+    position: relative;
+    height:150px;
+    width:150px;
+    float:right;
+    border-radius: 100px;
+    background: #000;
+    background: linear-gradient(to left bottom,#31434F 30%,#000 50%);
+}
+.yxo_2:before{
+    position: absolute;
+    content:"";
+    top:20px;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    background: #092B4B;
+    background: radial-gradient(#092B4B,#000);
+    border-radius:50px;
+    z-index: 2;
+}

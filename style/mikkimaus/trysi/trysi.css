@@ -1,0 +1,140 @@
+.trysi{
+    position: absolute;
+    bottom: 0;
+    width:180px;
+    height: 100px;
+    background: red;
+    z-index: 1;
+}
+.trysi__perehod {
+    position: absolute;
+    top:-5px;
+    background: #000;
+    width:180px;
+    height: 20px;
+    border-radius: 0px 0px 50px 50px;
+}
+.shtani_left{
+    position: relative;
+    bottom: 0;
+    width:80px;
+    height: 20px;
+    
+    float: left;
+    margin-top: 95px;
+    border-radius: 0px 0px 100px 100px;
+    background: red;
+    background: linear-gradient(to top,#92252A,#A53036,#FF0000);
+   /* box-shadow: inset; */
+}
+.shtani_left:before{
+    position: absolute;
+    content: "";
+    top:0px;
+    left:2px;
+    right:2px;
+    bottom:5px;
+
+    border-radius: 0px 0px 100px 100px;
+    background: red;
+    background: linear-gradient(to top,#A32C32,#FF0000);
+}
+.shtani_right{
+    position: relative;
+    bottom: 0;
+    width:80px;
+    height: 20px;
+
+    float: right;
+    margin-top: 95px;
+    border-radius: 0px 0px 100px 100px;
+    background: red;
+    background: linear-gradient(to top,#92252A,#A53036,#FF0000);
+}
+.shtani_right:before{
+    position: absolute;
+    content: "";
+    top:0px;
+    left:2px;
+    right:2px;
+    bottom:5px;
+
+    border-radius: 0px 0px 100px 100px;
+    background: red;
+    background: linear-gradient(to top,#A32C32,#FF0000);
+}
+
+/*Код тени на красных труселях*/
+.trysi__shadow{
+    position: absolute;
+    left:15px;
+    top:0;
+    width:140px;
+    height: 100px;
+    background: linear-gradient(to top,#C74239,#C94F44,#9A3A3B);
+    border-radius: 0px 0px 100px 100px;
+    box-shadow: 1px 1px 30px 5px #B54342;
+    opacity: 0.3;
+    z-index: -1;
+}
+.trysi__shadow:before{
+    position:absolute;
+    content: "";
+    top:5px;
+    left:10px;
+    right:10px;
+    bottom:5px;
+    border-radius: 0px 0px 100px 100px;
+    background: #F15640;
+    background: linear-gradient(to  top,#DD4C38,#F38260);
+    box-shadow: inset 0px 6px 10px 4px #fff;
+    z-index: -1;
+}
+
+/*Пуговицы*/
+.button_left{
+    position: absolute;
+    top:30px;
+    left:60px;
+    background: #fff;
+    width:15px;
+    height:30px;
+    border-radius:30px/60px;
+    box-shadow:inset 0px 0px 5px 3px #B3D4DF;
+}
+.button_left:before{
+    position: absolute;
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    background: blue;
+    background: linear-gradient(to bottom,#B1D2E4,#79A3B1);
+    border-radius:30px/60px;
+    z-index: -1;
+    box-shadow: 0px 4px 3px 1px #A5313A;
+}
+.button_right{
+    position: absolute;
+    top:30px;
+    right:60px;
+    background: #fff;
+    width:15px;
+    height:30px;
+    border-radius:30px/60px;
+    box-shadow:inset 0px 0px 5px 3px #B3D4DF;
+}
+.button_right:before{
+    position: absolute;
+    content:"";
+    top:-2px;
+    left:-2px;
+    right:-2px;
+    bottom:-2px;
+    background: blue;
+    background: linear-gradient(to bottom,#B1D2E4,#79A3B1);
+    border-radius:30px/60px;
+    box-shadow: 0px 4px 3px 1px #A5313A;
+    z-index: -1;
+}

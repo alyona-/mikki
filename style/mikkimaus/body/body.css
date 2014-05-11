@@ -1,0 +1,22 @@
+.body{
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    height: 300px;
+    top:10px;
+
+}
+.givot {
+    position: absolute;
+
+    background: #000;
+   background: radial-gradient(circle at right bottom,#000 50%,#092B4B);
+    float: left;
+    border-radius: 100px 100px 40px 40px;
+
+  width:180px;
+    height: 300px;
+    border-radius: 100px 100px 40px 40px;
+    margin-left:50px;
+
+}

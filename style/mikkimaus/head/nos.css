@@ -1,0 +1,65 @@
+.nos{
+    position: relative;
+   /* top:-10px;
+    left:75px;
+    width:75px;
+    height:50px; */
+
+    /*Пытаюсь сделать кроссбрауезрно*/
+    margin-top:-10px;
+    margin-left:75px;
+    width:75px;
+    height:50px;
+    /*---------*/
+
+    background: #DE9C65;
+    background: linear-gradient(to bottom,#DE9C65,#E0C6B2);
+    border-radius:50px;
+
+    z-index: 1;
+}
+
+.nos:before{
+    position: absolute;
+    content:"";
+    top:3px;
+    left:1px;
+    right:1px;
+    bottom:0px;
+    border-radius:50px;
+    background: #E0C6B2;
+    z-index: -2;
+}
+.nos_2{
+    position: absolute;
+    top:20px;
+    left:15px;
+    width:45px;
+    height:25px;
+    background: #000;
+    background: radial-gradient(circle closest-corner,#092B4B 100%,#0F2E4A 36%,#6F95B0 0%);
+    border-radius:50px;
+    box-shadow:inset -4px -3px 5px 0px #000;
+
+}
+.nos_2:before{
+    position:absolute;
+    content: "";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:50px;
+    box-shadow:6px 5px 20px 0px #D9794C;
+    z-index: -1;
+}
+.nos_2_shadow{
+    position: absolute;
+    top:5px;
+    left:10px;
+    width:15px;
+    height:5px;
+    border-radius:50px;
+    background: #fff;
+    opacity: 0.3;
+}

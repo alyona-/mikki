@@ -1,0 +1,20 @@
+.rot {
+    position: relative;
+    left:10px;
+    top:18px;
+    width:230px;
+    height:100px;
+    background: #E0C6B2;
+    border-radius:50px;
+    box-shadow:inset -6px -10px 30px 0px #DEA185;
+}
+
+.mouth {
+    /*background:#F39D7C; */
+    width:80%;
+    height:80px;
+    border-bottom:4px solid #F39D7C;
+    border-radius: 100px/30px;
+    margin-left:10%;
+    margin-top: -35%;
+}

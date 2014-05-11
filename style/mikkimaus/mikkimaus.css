@@ -1,0 +1,14 @@
+@import "head/head.css";
+@import "body/body.css";
+@import "legs/legs.css";
+@import "kross/kross.css";
+@import "hands/hands.css";
+@import "trysi/trysi.css";
+@import "hands/kist/kist.css";
+
+
+.mikki{
+    /*position: relative;
+    margin: 0 auto;
+    width:50%; */
+}

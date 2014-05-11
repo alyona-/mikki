@@ -1,0 +1,20 @@
+@import "boroda.css";
+@import "glaz.css";
+@import "nos.css";
+@import "rot.css";
+@import "yxo.css";
+.clean {
+    clear:both;
+}
+.head {
+    position:relative;
+    width:250px;
+    height:225px;
+
+    margin:0 auto;
+    margin-top: -70px;
+    border-radius: 100px;
+
+    background: #000;
+    background: radial-gradient(circle,#092B4B 10%,#000);
+}
